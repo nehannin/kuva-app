@@ -1,6 +1,6 @@
 <script setup>
 
-const message = "Tämä on testi."
+const message = "Tämä on ensimmäinen päivitys!"
 
 const loggedIn = true
 
