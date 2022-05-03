@@ -1,10 +1,15 @@
 <script setup>
-import PublicationViewAll from './components/publication/PublicationViewAll.vue';
+
+import { RouterView } from 'vue-router';
+import NavigationBar from './components/navigation/NavigationBar.vue';
+
 </script>
 
 <template>
-<PublicationViewAll></PublicationViewAll>
+    <NavigationBar></NavigationBar>
+    <router-view></router-view>
 </template>
 
 <style>
+
 </style>
