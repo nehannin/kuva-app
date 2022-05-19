@@ -16,7 +16,7 @@ defineProps({
 
 <style scoped>
 .item {
-    font-family: "Arial";
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 14pt;
 }
 img {
