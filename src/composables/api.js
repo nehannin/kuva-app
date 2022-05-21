@@ -3,8 +3,7 @@ import { authService } from "../services/authService";
 import { globalState, isAuth } from "../store";
 
 export const useApi = createFetch({
-    baseUrl: 'https://vara.onrender.com/api', // vaihda tähän NoSQL -kurssilta oma rajapinta
-    // baseUrl: 'mongodb+srv://nehannin:Vallero12@cluster0.mmnlq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
+    baseUrl: 'https://vara.onrender.com/api',
     options: {
         beforeFetch({ options }) {
 
